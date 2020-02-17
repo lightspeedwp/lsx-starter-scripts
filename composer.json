@@ -4,7 +4,7 @@
     "type": "wordpress-plugin",
     "require": {
         "cmb2/cmb2": "^2.7",
-        "lightspeeddevelopment/lsx-starter-plugin": "1.0"
+        "lightspeeddevelopment/lsx-starter-plugin": "dev-master"
     },
     "license": "GPL3",
     "authors": [
