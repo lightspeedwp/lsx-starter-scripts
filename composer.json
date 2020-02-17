@@ -1,5 +1,5 @@
 {
-    "name": "lightspeed/lsx-starter-script",
+    "name": "lightspeeddevelopment/lsx-starter-script",
     "description": "This is a composer plugin with tools to create your LSX based plugin or theme.",
     "type": "wordpress-plugin",
     "require": {
