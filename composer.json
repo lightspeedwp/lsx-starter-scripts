@@ -1,0 +1,15 @@
+{
+    "name": "lightspeed/lsx-starter-script",
+    "description": "This is a composer plugin with tools to create your LSX based plugin or theme.",
+    "type": "wordpress-plugin",
+    "require": {
+        "cmb2/cmb2": "^2.7"
+    },
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Warwick Booth",
+            "email": "warwick@lsdev.biz"
+        }
+    ]
+}
