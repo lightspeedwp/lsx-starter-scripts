@@ -14,8 +14,12 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "cd vendor",
-			"git clone https://github.com/lightspeeddevelopment/lsx-starter-plugin.git vendor/lsx-starter-plugin"
-        ]
+			"git clone https://github.com/lightspeeddevelopment/lsx-starter-plugin.git vendor/lsx-starter-plugin",
+			"git clone https://github.com/lightspeeddevelopment/lsx-starter-theme.git vendor/lsx-starter-theme"
+		],
+        "fetch-git-repos": [
+			"git -C vendor/lsx-starter-plugin fetch",
+			"git -C vendor/lsx-starter-theme fetch"
+		]
     }
 }
